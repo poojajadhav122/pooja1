@@ -1,0 +1,28 @@
+body{font-family: 'Jua',jau;}
+.btn{background:#800080; border:0;color:#8B4513;padding:8 px 0;font-size:16px;margin:10px 0;height: auto;width: auto;float: left}
+.btn:hover{background:#eeeeee;color:#000000;cursor:pointer;}
+
+
+.containerlogo{ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-overflow: auto;
+}
+.tab_class,{border:1px solid;list-style: none;overflow: auto;background:#20BBAA;
+margin:10px 5px;}
+.tab_class li{border-right: 1px solid;padding: 10px 5px;float:left;
+color:#aaaaaa;}
+
+.tab_class li:hover{background:#800080;color:#8B4513;cursor:pointer;}
+
+.slider_img{position:absolute;height:100%;width:100%;margin: 30px 0px; }
+
+.border_img{border-right: 1px solid;width:100%;height:100%;float: left;
+	vertical-align: middle;padding:40px;margin: 45px;text-decoration: none;color: #eeeeee;cursor:pointer; }
+	.product{width: auto;height: auto;}
+.product_box{border: 1px solid;}
+
+
+
+
