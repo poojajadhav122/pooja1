@@ -1,0 +1,5 @@
+body{background: pink;}
+.container{width:1000px;margin:auto}
+.container:after{dispaly:block;content:"";clear: both;}
+.col-md-3{width:calc(25% - 30px);float: left;padding:0 15px;}/** in padding we give top and bottom value=0 and right and left value given=15px**/
+.img-responsive{width:100%;height:auto;}

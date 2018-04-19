@@ -1,4 +1,4 @@
-*{margin:0;padding:0}/** here star meaning is that all tags get the 0 margin and 0 padding**/
+*{margin:0;padding:0}/** here star meaning is that all tags get the 0 margin and 0 padding
 body{font-size:16px;font-family:arial;color:#000000;background:#ffffff}
 @media screen and (max-width: 767px){  /** this is use for mobile phone**/
 	.container{width:98%;}

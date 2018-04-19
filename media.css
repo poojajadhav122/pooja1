@@ -1,0 +1,25 @@
+body{background: pink;}
+.container{margin:auto}
+.container:after{dispaly:block;content:"";clear: both;}
+/**.col-md-3{width:calc(25% - 30px);float: left;padding:0 15px;}/** in padding we give top and bottom value=0 and right and left value given=15px**/
+.img-responsive{width:100%;height:auto;}
+
+
+@media screen and (max-width: 767px){  /** this is use for mobile phone**/
+	.container{width:98%;}
+    .col-xs-3{width:calc(25% - 30px);float: left;padding:0 15px;}
+}
+@media screen and (min-width:768px) and (max-width: 991px){/** this is use for tablet**/
+	.container{width:750px;}
+    .col-sm-6{width:calc(50% - 30px);float: left;padding:0 15px;}
+}
+@media screen and (min-width:992px)and (max-width: 1999px){/** this is use for small desktop**/
+	.container{width:970px;}
+    .col-md-3{width:calc(25% - 30px);float: left;padding:0 15px;}
+}
+
+@media screen and (min-width: 1200px){/** this is use for large desktop**/
+	.container{width:1170px;}
+    .col-lg-3{width:calc(25% - 30px);float: left;padding:0 15px;}
+}
+
