@@ -1,4 +1,4 @@
-*{margin:0;padding:0}/** here star meaning is that all tags get the 0 margin and 0 padding
+*{margin:0;padding:0}/** here star meaning is that all tags get the 0 margin and 0 padding**/
 body{font-size:16px;font-family:arial;color:#000000;background:#ffffff}
 @media screen and (max-width: 767px){  /** this is use for mobile phone**/
 	.container{width:98%;}
@@ -65,7 +65,7 @@ body{font-size:16px;font-family:arial;color:#000000;background:#ffffff}
 
 
 .container{margin:auto}
-.container:after{dispaly:block;content:"";clear: both;}
+.container:after{display:block;content:"";clear: both;}
 /**.col-md-3{width:calc(25% - 30px);float: left;padding:0 15px;}/** in padding we give top and bottom value=0 and right and left value given=15px**/
 .img-responsive{width:100%;height:auto;}
 .pull-right{float:right;}
